@@ -4,9 +4,4 @@ module.exports = {
     defaultLocale: "en",
   },
   output: "standalone",
-  experimental: {
-    images: { // This will cause an error
-      allowFutureImage: true,
-    },
-  },
 };
